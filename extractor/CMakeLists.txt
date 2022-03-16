@@ -2,6 +2,7 @@ cmake_minimum_required (VERSION 2.8)
 project (MorulaExtractor)
 set (MorulaExtractor_VERSION_MAJOR 0)
 set (MorulaExtractor_VERSION_MINOR 0)
+set(CMAKE_CXX_STANDARD 17)
 
 find_package(Z3)
 find_package(LLVM REQUIRED CONFIG)
