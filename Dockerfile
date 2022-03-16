@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
 RUN apt-get install -y cmake vim git tmux build-essential \
-  llvm-9 clang-6.0 libboost-all-dev libgtest-dev libelf-dev
+  llvm-10 clang-6.0 libboost-all-dev libgtest-dev libelf-dev
 
 RUN mkdir Gallium-public
 COPY . /Gallium-public
