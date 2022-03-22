@@ -3,4 +3,4 @@
 set -eou pipefail
 
 docker build -t gallium .
-docker run -it gallium
+docker run --rm -it gallium 
