@@ -1025,6 +1025,7 @@ namespace HIR {
                 std::string,
                 std::shared_ptr<Function>> &func_mapping) {
         auto fn = f->getName().str();
+        std::cerr << "fn " << fn << "\n";
         if (func_mapping.find(fn) != func_mapping.end()) {
             return;
         }
